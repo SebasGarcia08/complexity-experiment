@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\USUARIO\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\USUARIO\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_complexity-analysis.-116649351.00" t="ExcludeRecursive" />
+    <e p="H:\Universidad\4\integrador\complexity-experiment\complexity-analysis" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="complexity-analysis.csproj" t="IncludeRecursive" />
+      <e p="complexity-analysis.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="net5.0" t="Include">
+            <e p="complexity-analysis.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+    </e>
+  </component>
+</project>
