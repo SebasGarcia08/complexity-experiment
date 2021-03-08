@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "complexity-experiment", "complexity-experiment\complexity-experiment.csproj", "{211AA86E-5DB9-4453-A50B-776CE6FAF547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "complexity-experiment-testing", "complexity-experiment-testing\complexity-experiment-testing.csproj", "{EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{211AA86E-5DB9-4453-A50B-776CE6FAF547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211AA86E-5DB9-4453-A50B-776CE6FAF547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211AA86E-5DB9-4453-A50B-776CE6FAF547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211AA86E-5DB9-4453-A50B-776CE6FAF547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

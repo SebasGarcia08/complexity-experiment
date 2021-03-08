@@ -1,0 +1,6 @@
+C:\Users\Chris\Google Drive\____Decimo Semestre\Proyecto Integrador 1\Taller 3 - Taller de Diseño de experimentos\complexity-experiment\complexity-experiment\complexity-experiment\bin\Debug\complexity_experiment.exe
+C:\Users\Chris\Google Drive\____Decimo Semestre\Proyecto Integrador 1\Taller 3 - Taller de Diseño de experimentos\complexity-experiment\complexity-experiment\complexity-experiment\bin\Debug\complexity_experiment.pdb
+C:\Users\Chris\Google Drive\____Decimo Semestre\Proyecto Integrador 1\Taller 3 - Taller de Diseño de experimentos\complexity-experiment\complexity-experiment\complexity-experiment\obj\Debug\complexity-experiment.csprojAssemblyReference.cache
+C:\Users\Chris\Google Drive\____Decimo Semestre\Proyecto Integrador 1\Taller 3 - Taller de Diseño de experimentos\complexity-experiment\complexity-experiment\complexity-experiment\obj\Debug\complexity-experiment.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Google Drive\____Decimo Semestre\Proyecto Integrador 1\Taller 3 - Taller de Diseño de experimentos\complexity-experiment\complexity-experiment\complexity-experiment\obj\Debug\complexity_experiment.exe
+C:\Users\Chris\Google Drive\____Decimo Semestre\Proyecto Integrador 1\Taller 3 - Taller de Diseño de experimentos\complexity-experiment\complexity-experiment\complexity-experiment\obj\Debug\complexity_experiment.pdb
