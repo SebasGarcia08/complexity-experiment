@@ -7,9 +7,10 @@ namespace data_creation
     {
         public static void Main(string[] args)
         {
-            saveFile(32); 
-            saveFile(512); 
-            saveFile(8192); 
+            saveFile(4096); 
+            saveFile(8192);
+            saveFile(16384); 
+             
         }
 
         private static void saveFile(int N)

@@ -6,28 +6,28 @@ namespace complexity_experiment.ui
 {
     class Program
     {
-        public static readonly int REPETITIONS = 5;
+        public static readonly int REPETITIONS = 100;
         
         static void Main(string[] args)
         {
 
-            int[] small = loadData(49152);
-            int[] medium = loadData(327680);
-            int[] large = loadData(491520);
+            int[] small = loadData(4096);
+            int[] medium = loadData(8192);
+            int[] large = loadData(4096);
             
             for (int i = 0; i < REPETITIONS; i++)
             {
                 // 49152 - 1.5 MB
-                RunMergeSort(49152, small);
-                RunSelectionSort(49152, small);
+                RunMergeSort(small.Length, small);
+                RunSelectionSort(small.Length, small);
 
                 //  327,680 - 10 MB
-                RunMergeSort(327680, medium);
-                RunSelectionSort(327680, medium);
+                RunMergeSort(medium.Length, medium);
+                RunSelectionSort(medium.Length, medium);
 
                 // 491,520 -  15 MB 
-                RunMergeSort(491520, large);
-                RunSelectionSort(491520, large);
+                RunMergeSort(large.Length, large);
+                RunSelectionSort(large.Length, large);
             }
         }
 
@@ -42,7 +42,7 @@ namespace complexity_experiment.ui
             
             DateTime end = DateTime.Now;
             long elapsedTicks = end.Ticks - start.Ticks;
-            Console.WriteLine("MergeSort " + N + " " + elapsedTicks * 100); //NanoSeconds
+            Console.WriteLine("MergeSort " + N + " " + elapsedTicks * 100000); //Picosegundos
         }
         
         public static void RunSelectionSort(int N, int[] array)

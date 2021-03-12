@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/.idea.complexity-experiment.iml
+/projectSettingsUpdater.xml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../:\Users\Chris\Google Drive\____Decimo Semestre\Proyecto Integrador 1\Taller 3 - Taller de Diseño de experimentos\complexity-experiment\complexity-experiment\.idea\.idea.complexity-experiment\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

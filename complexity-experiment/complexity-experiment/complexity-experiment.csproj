@@ -45,9 +45,9 @@
         <Compile Include="ui\Program.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="data\327680.txt" />
-      <Content Include="data\49152.txt" />
-      <Content Include="data\491520.txt" />
+      <Content Include="data\16384.txt" />
+      <Content Include="data\4096.txt" />
+      <Content Include="data\8192.txt" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
