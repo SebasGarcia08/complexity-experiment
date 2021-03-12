@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "complexity-experiment", "co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "complexity-experiment-testing", "complexity-experiment-testing\complexity-experiment-testing.csproj", "{EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-creation", "data-creation\data-creation.csproj", "{38D964CD-73D1-48BA-A3E3-F83015A459F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D964CD-73D1-48BA-A3E3-F83015A459F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D964CD-73D1-48BA-A3E3-F83015A459F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D964CD-73D1-48BA-A3E3-F83015A459F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D964CD-73D1-48BA-A3E3-F83015A459F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

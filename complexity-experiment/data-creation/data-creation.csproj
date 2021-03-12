@@ -4,11 +4,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{211AA86E-5DB9-4453-A50B-776CE6FAF547}</ProjectGuid>
+        <ProjectGuid>{38D964CD-73D1-48BA-A3E3-F83015A459F3}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>complexity_experiment</RootNamespace>
-        <AssemblyName>complexity_experiment</AssemblyName>
+        <RootNamespace>data_creation</RootNamespace>
+        <AssemblyName>data_creation</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -38,16 +38,11 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="model\ISortable.cs" />
-        <Compile Include="model\MergeSort.cs" />
-        <Compile Include="model\SelectionSort.cs" />
+        <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="ui\Program.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="data\16384.txt" />
-      <Content Include="data\4096.txt" />
-      <Content Include="data\8192.txt" />
+      <Folder Include="data" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,4 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f6469dc1_002D83c2_002D4cfe_002D9e39_002D5be39a539acb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Tests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;ProjectFile&gt;EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D/f:Tests.cs&lt;/ProjectFile&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0ad66db8_002Db4ff_002D4567_002Db3b9_002D4674edf621a2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestSmallData" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::EC28A4A1-9CCF-4189-879F-C4FF1F1EFD2D::.NETFramework,Version=v4.7.2::complexity_experiment_testing.TestSelectionSort.TestSmallData&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
