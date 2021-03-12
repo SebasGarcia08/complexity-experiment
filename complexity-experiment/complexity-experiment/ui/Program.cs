@@ -11,26 +11,30 @@ namespace complexity_experiment.ui
         static void Main(string[] args)
         {
 
+            int[] small = loadData(49152);
+            int[] medium = loadData(327680);
+            int[] large = loadData(491520);
+            
             for (int i = 0; i < REPETITIONS; i++)
             {
                 // 49152 - 1.5 MB
-                RunMergeSort(49152);
-                RunSelectionSort(49152);
+                RunMergeSort(49152, small);
+                RunSelectionSort(49152, small);
 
                 //  327,680 - 10 MB
-                RunMergeSort(327680);
-                RunSelectionSort(327680);
+                RunMergeSort(327680, medium);
+                RunSelectionSort(327680, medium);
 
                 // 491,520 -  15 MB 
-                RunMergeSort(491520);
-                RunSelectionSort(491520);
+                RunMergeSort(491520, large);
+                RunSelectionSort(491520, large);
             }
         }
 
-        public static void RunMergeSort(int N)
+        public static void RunMergeSort(int N, int[] array)
         {
             MergeSort mergeSort = new MergeSort();
-            int[] unsortedArray = loadData(N);
+            int[] unsortedArray = array;
             
             DateTime start = DateTime.Now; 
            
@@ -38,13 +42,13 @@ namespace complexity_experiment.ui
             
             DateTime end = DateTime.Now;
             long elapsedTicks = end.Ticks - start.Ticks;
-            Console.WriteLine(N + " " + elapsedTicks * 100); //NanoSeconds
+            Console.WriteLine("MergeSort " + N + " " + elapsedTicks * 100); //NanoSeconds
         }
         
-        public static void RunSelectionSort(int N)
+        public static void RunSelectionSort(int N, int[] array)
         {
             SelectionSort selectionSort = new SelectionSort();
-            int[] unsortedArray = loadData(N);
+            int[] unsortedArray = array;
             
             DateTime start = DateTime.Now; 
            
@@ -52,7 +56,7 @@ namespace complexity_experiment.ui
             
             DateTime end = DateTime.Now;
             long elapsedTicks = end.Ticks - start.Ticks;
-            Console.WriteLine(N + " " + elapsedTicks * 100); //NanoSeconds
+            Console.WriteLine("SelectionSort " + N + " " + elapsedTicks * 100); //NanoSeconds
         }
 
         public static int[] loadData(int N)
