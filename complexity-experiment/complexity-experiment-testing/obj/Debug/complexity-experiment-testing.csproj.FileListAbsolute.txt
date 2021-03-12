@@ -1,9 +1,10 @@
 C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\bin\Debug\complexity_experiment_testuing.dll
 C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\bin\Debug\complexity_experiment_testuing.pdb
 C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\bin\Debug\complexity_experiment.exe
-C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\bin\Debug\nunit.framework.dll
 C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\bin\Debug\complexity_experiment.pdb
 C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\bin\Debug\nunit.framework.xml
-C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\obj\Debug\complexity-experiment-testing.csprojResolveAssemblyReference.cache
 C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\obj\Debug\complexity_experiment_testuing.dll
 C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\obj\Debug\complexity_experiment_testuing.pdb
+C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\obj\Debug\complexity-experiment-testing.csprojAssemblyReference.cache
+C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\obj\Debug\complexity-experiment-testing.csproj.CoreCompileInputs.cache
+C:\Users\juanf\source\repos\complexity-experiment\complexity-experiment\complexity-experiment-testing\obj\Debug\complexity-experiment-testing.csproj.CopyComplete
