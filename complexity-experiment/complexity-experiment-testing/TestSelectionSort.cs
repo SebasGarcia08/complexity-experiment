@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace complexity_experiment_testing
 {
     [TestFixture]
-    public class Tests
+    public class TestSelectionSort
     {
         private static readonly int SET_SIZE = 100;
         private static readonly int START = 1;
@@ -14,12 +14,12 @@ namespace complexity_experiment_testing
         private int[] unSortedArray;
         private int[] sortedArray;
         
-        private MergeSort mergeSort;
+        private SelectionSort selectionSort;
         
         [OneTimeSetUp]
         public void GlobalSetup()
         {
-            mergeSort = new MergeSort();
+            selectionSort = new SelectionSort();
         }
 
         public void setupSmallData()
@@ -48,7 +48,7 @@ namespace complexity_experiment_testing
         public void TestSmallData()
         {          
             setupSmallData();
-            mergeSort.Sort(unSortedArray);
+            selectionSort.Sort(unSortedArray);
             Assert.AreEqual(sortedArray, unSortedArray);
         }
       
@@ -56,7 +56,7 @@ namespace complexity_experiment_testing
         public void TestBigData()
         {
             setupBigData();
-            mergeSort.Sort(unSortedArray);
+            selectionSort.Sort(unSortedArray);
             Assert.AreEqual(sortedArray, unSortedArray);
         }
     }
