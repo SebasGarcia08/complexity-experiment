@@ -13,7 +13,7 @@ namespace complexity_experiment.ui
 
             int[] small = loadData(4096);
             int[] medium = loadData(8192);
-            int[] large = loadData(4096);
+            int[] large = loadData(16384);
             
             for (int i = 0; i < REPETITIONS; i++)
             {
