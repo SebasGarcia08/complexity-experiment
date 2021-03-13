@@ -30,7 +30,7 @@ namespace complexity_experiment.ui
                 RunSelectionSort(large.Length, large);
             }
         }
-
+        
         public static void RunMergeSort(int N, int[] array)
         {
             MergeSort mergeSort = new MergeSort();
@@ -56,7 +56,7 @@ namespace complexity_experiment.ui
             
             DateTime end = DateTime.Now;
             long elapsedTicks = end.Ticks - start.Ticks;
-            Console.WriteLine("SelectionSort " + N + " " + elapsedTicks * 100); //NanoSeconds
+            Console.WriteLine("SelectionSort " + N + " " + elapsedTicks * 100000); //NanoSeconds
         }
 
         public static int[] loadData(int N)
