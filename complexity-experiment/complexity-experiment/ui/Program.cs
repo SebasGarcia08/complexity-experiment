@@ -11,55 +11,40 @@ namespace complexity_experiment.ui
         static void Main(string[] args)
         {
 
-            int[] small = loadData(4096);
-            int[] medium = loadData(8192);
-            int[] large = loadData(16384);
+            int[] small = LoadData(4096);
+            int[] medium = LoadData(8192);
+            int[] large = LoadData(16384);
+            
+            var mergeSorter = new MergeSort();
+            var selectionSorter = new SelectionSort();
             
             for (int i = 0; i < REPETITIONS; i++)
             {
-                // 49152 - 1.5 MB
-                RunMergeSort(small.Length, small);
-                RunSelectionSort(small.Length, small);
+                Run("MergeSort", mergeSorter, small.Length, small);
+                Run("SelectionSort", selectionSorter, small.Length, small);
+                
+                Run("MergeSort", mergeSorter, medium.Length, medium);
+                Run("SelectionSort", selectionSorter, medium.Length, medium);
 
-                //  327,680 - 10 MB
-                RunMergeSort(medium.Length, medium);
-                RunSelectionSort(medium.Length, medium);
-
-                // 491,520 -  15 MB 
-                RunMergeSort(large.Length, large);
-                RunSelectionSort(large.Length, large);
+                Run("MergeSort", mergeSorter, large.Length, large);
+                Run("SelectionSort", selectionSorter, large.Length, large);
             }
         }
-        
-        public static void RunMergeSort(int N, int[] array)
+
+        public static void Run(string name, ISortable sorter, int N, int[] array)
         {
-            MergeSort mergeSort = new MergeSort();
             int[] unsortedArray = array;
             
             DateTime start = DateTime.Now; 
            
-            mergeSort.Sort(unsortedArray);
+            sorter.Sort(unsortedArray);
             
             DateTime end = DateTime.Now;
             long elapsedTicks = end.Ticks - start.Ticks;
-            Console.WriteLine("MergeSort " + N + " " + elapsedTicks * 100000); //Picosegundos
-        }
-        
-        public static void RunSelectionSort(int N, int[] array)
-        {
-            SelectionSort selectionSort = new SelectionSort();
-            int[] unsortedArray = array;
-            
-            DateTime start = DateTime.Now; 
-           
-            selectionSort.Sort(unsortedArray);
-            
-            DateTime end = DateTime.Now;
-            long elapsedTicks = end.Ticks - start.Ticks;
-            Console.WriteLine("SelectionSort " + N + " " + elapsedTicks * 100000); //NanoSeconds
+            Console.WriteLine(name + " " + N + " " + elapsedTicks * 100000); //Picosegundos
         }
 
-        public static int[] loadData(int N)
+        public static int[] LoadData(int N)
         {
             string[] lines = File.ReadAllLines("../../data/" + N + ".txt");
             int[] numbers = new int[lines.Length];
